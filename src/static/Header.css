@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.logo-container{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #3F403F;
+    font-size: 1rem;
+}
+.nav, .button-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

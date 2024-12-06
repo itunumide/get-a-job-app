@@ -1,0 +1,28 @@
+.jobs-card{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #f1f1f1;
+    width: 260px;
+    padding: 20px;
+    height: 300px;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+.job-type{
+    align-self: flex-end;
+    background-color: #e4e7f1;
+    font-size: .8rem;
+    padding: 4px 20px;
+    border-radius: 15px;
+    opacity: .4;
+    font-weight: 400;
+    
+}
+.job-title{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
