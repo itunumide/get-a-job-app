@@ -1,0 +1,24 @@
+.role-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 0 0 2px rgba(128, 128, 128, 0.322);
+    transition: 1s ease-out;
+}
+.role-card__title{
+    margin: 15px;
+    color: #3F403F;
+    font-weight: 600;
+    font-size: 1.1rem;   
+}
+.role-card__jobs{
+    font-size: .9rem;
+    color: #9B9B9B;
+}
+.role-card:hover{
+    transform: scale(1.05);
+}

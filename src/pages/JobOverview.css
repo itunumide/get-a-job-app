@@ -1,0 +1,37 @@
+.job-overview__info{
+    background-color:#f3faf4 ;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+    width: 110%;
+    margin: 100px 0;
+    flex-wrap: wrap;
+}
+.job-overview__info-text{
+    max-width: 500px;
+    padding: 20px;
+}
+.job-overview__info-title{
+    font-size: 2.1rem;
+}
+.job-overview__info-description{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.job-overview__info-learn-more{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    align-items: center;
+    span{
+        color: green;
+        background: transparent;
+        box-shadow: 0 5px 10px green;
+    }
+}
+.job-overview__info-image{
+    max-width: 500px;
+    img{
+        width: 100%;
+    }
+}

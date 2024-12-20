@@ -1,0 +1,30 @@
+.get-started-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+   justify-content:center;
+   align-items: center;
+   background: #000;
+   height: 350px;
+   margin-bottom: 150px;
+}
+.get-started-image{
+    position: absolute; 
+}
+.get-started-content{
+    position: relative;
+    align-self: center;
+    justify-self: flex-end;
+    right: -250px;
+}
+.get-started-title{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+.get-started-description{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}

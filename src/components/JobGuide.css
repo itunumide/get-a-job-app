@@ -1,0 +1,15 @@
+
+.feature-header{
+    display: flex;
+    align-items: center; 
+}
+.feature-title{
+    font-size: 1.4rem;
+    margin: 10px;
+    font-weight: 500;
+}
+.feature-text{
+    line-height: 30px;
+    width: 91%;
+    font-weight: 400;
+}

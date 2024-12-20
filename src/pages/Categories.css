@@ -1,0 +1,31 @@
+.popular-categories{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    flex-direction: column;
+}
+.popular-categories__title{
+    font-size: 2rem;
+}
+.popular-categories__list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.popular-categories__info{
+    margin: 50px 0;
+    display: flex;
+    background-color: wheat;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* padding: 50px; */
+}
+.popular-categories__info-text{
+    width: 500px;
+}
+.popular-categories__info-title{
+    font-weight: 3rem;
+}

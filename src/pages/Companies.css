@@ -1,14 +1,42 @@
 .recommended-jobs-section{
    margin-bottom: 100px;
-  padding: 20px 70px;
+
 }
 .section-title{
     font-size: 2.3rem;
     font-weight: 700;
+    margin-bottom: 50px;
 
 }
 .jobs-list{
     display: flex;
     width: 108%;
     justify-content: space-between;
+}
+.arrow-job{
+    display: flex;
+    flex-direction: column;
+}
+.how-it-works-section{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.image-container{
+    width: 56%;
+    img{
+        width: 100%;
+    }
+}
+.text-container{
+    width: 40%;
+}
+.subsection-title{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.subsection-text{
+    line-height: 30px;
+    width: 90%;
+    font-weight: 400;
 }

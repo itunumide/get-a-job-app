@@ -1,6 +1,8 @@
 .App {
+  padding: 20px 70px;
   background-color: #ffffff;
-  width: 100%;
+ 
   color: #3F403F;
+  overflow-x: hidden;
 }
 

@@ -1,4 +1,3 @@
-import Header from "../static/Header";
 import "./Home.css";
 import background from "../assets/Rectangle.svg";
 import heroImg from "../assets/hero-image.png";
@@ -15,7 +14,6 @@ const Home = () => {
         <img src={background} alt="" />
       </div>
       <div className="content">
-        <Header />
         <div className="main-section">
           <div className="text-section">
             <h2 className="title">

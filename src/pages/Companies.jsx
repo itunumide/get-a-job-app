@@ -6,44 +6,44 @@ import flutterLogo from "../assets/image.svg";
 import accessLogo from "../assets/Group.svg";
 import compimg from "../assets/Group 13.png";
 import JobGuide from "../components/JobGuide";
+import Arrow from "../components/reuseable/Arrow";
 
 const Companies = () => {
   return (
     <div className="recommended-jobs-section">
       <h1 className="section-title">Recommended Jobs</h1>
-      <div className="jobs-list">
-        <JobsCard
-          jobType="Full time"
-          companyLogo={paystackLogo}
-          jobTitle="QA Engineer"
-          companyName="Paystack"
-          location="Lagos, Nigeria"
-          actionText="Apply Now"
-        />
-        <JobsCard
-          jobType="Part time"
-          companyLogo={googleLogo}
-          jobTitle="Product Analyst"
-          companyName="Google"
-          location="Lagos, Nigeria"
-          actionText="Apply Now"
-        />
-        <JobsCard
-          jobType="Full time"
-          companyLogo={flutterLogo}
-          jobTitle="HR Manager"
-          companyName="Flutterwave"
-          location="Abuja, Nigeria"
-          actionText="Apply Now"
-        />
-        <JobsCard
-          jobType="Full time"
-          companyLogo={accessLogo}
-          jobTitle="QA Engineer"
-          companyName="Paystack"
-          location="Lagos, Nigeria"
-          actionText="Apply Now"
-        />
+      <div className="arrow-job">
+        <div className="jobs-list">
+          <JobsCard
+            jobType="Full time"
+            companyLogo={paystackLogo}
+            jobTitle="QA Engineer"
+            companyName="Paystack"
+            location="Lagos, Nigeria"
+          />
+          <JobsCard
+            jobType="Part time"
+            companyLogo={googleLogo}
+            jobTitle="Product Analyst"
+            companyName="Google"
+            location="Lagos, Nigeria"
+          />
+          <JobsCard
+            jobType="Full time"
+            companyLogo={flutterLogo}
+            jobTitle="HR Manager"
+            companyName="Flutterwave"
+            location="Abuja, Nigeria"
+          />
+          <JobsCard
+            jobType="Full time"
+            companyLogo={accessLogo}
+            jobTitle="QA Engineer"
+            companyName="Paystack"
+            location="Lagos, Nigeria"
+          />
+        </div>
+        <Arrow align={"flex-end"}/>
       </div>
       <div className="how-it-works-section">
         <div className="image-container">

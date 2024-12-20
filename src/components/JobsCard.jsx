@@ -1,4 +1,5 @@
-import './JobsCard.css'
+import "./JobsCard.css";
+import mapPin from "../assets/map pin.svg";
 
 const JobsCard = ({
   jobType,
@@ -6,7 +7,6 @@ const JobsCard = ({
   jobTitle,
   companyName,
   location,
-  actionText,
 }) => {
   return (
     <div className="jobs-card">
@@ -24,14 +24,10 @@ const JobsCard = ({
         <span className="company-name">{companyName}</span>
         <div className="footer-details">
           <div className="location">
-            <img
-              src="location-icon.svg"
-              alt="Location"
-              className="location-icon"
-            />
-            <span className="location-text">{location}</span>
+            <img src={mapPin} alt="Location" className="location-icon" />
+            <p className="text">{location}</p>
           </div>
-          <span className="action-text">{actionText}</span>
+          <span className="action-text">Apply now</span>
         </div>
       </div>
     </div>
